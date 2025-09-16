@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Madina TechConnect",
-    "slug": "madina-techconnect",
+    "slug": "snack-a6bcde8f-d54e-4518-a0ab-704b7c839798",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,8 +27,11 @@
     },
     "extra": {
       "eas": {
-     "projectId": "64d39bdf-1e21-4195-a24c-eda96d33f328"
+        "projectId": "64d39bdf-1e21-4195-a24c-eda96d33f328"
       }
+    },
+    "cli": {
+      "appVersionSource": "remote"
     }
   }
 }
