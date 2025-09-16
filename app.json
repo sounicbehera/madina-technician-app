@@ -1,29 +1,34 @@
 {
   "expo": {
-    "name": "vengeful-red-raisins",
-    "slug": "snack-a6bcde8f-d54e-4518-a0ab-704b7c839798",
+    "name": "Madina TechConnect",
+    "slug": "madina-techconnect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1e3a8a"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sounicbehera.madinatechconnect"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#1e3a8a"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.sounicbehera.madinatechconnect"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": 64d39bdf-1e21-4195-a24c-eda96d33f328
+      }
     }
   }
 }
