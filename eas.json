@@ -9,13 +9,16 @@
       "android": {
         "buildType": "apk",
         "credentialsSource": "remote"
-      },
-      "ios": {
+      }
+    },
+    "preview": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
         "credentialsSource": "remote"
       }
     }
   },
-  "submit": {
-    "production": {}
-  }
+  "submit": {}
 }
