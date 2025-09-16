@@ -16,22 +16,21 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sounicbehera.madinatechconnect"
+      "bundleIdentifier": "com.sounicbehera.madinatechconnect",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1e3a8a"
       },
-      "package": "com.sounicbehera.madinatechconnect"
+      "package": "com.sounicbehera.madinatechconnect",
+      "versionCode": 1
     },
     "extra": {
       "eas": {
         "projectId": "64d39bdf-1e21-4195-a24c-eda96d33f328"
       }
-    },
-    "cli": {
-      "appVersionSource": "remote"
     }
   }
 }
