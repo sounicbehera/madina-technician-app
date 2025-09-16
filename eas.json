@@ -4,11 +4,18 @@
   },
   "build": {
     "production": {
+      "developmentClient": false,
+      "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "credentialsSource": "none"   
+        "credentialsSource": "remote"
       },
-      "autoIncrement": true
+      "ios": {
+        "credentialsSource": "remote"
+      }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
